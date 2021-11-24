@@ -8,7 +8,7 @@ def home(request):
     data = {
         'teams' : teams,
         'featured_cars' : featured_cars,
-        'all_cars' : all_cars
+        'all_cars' : all_cars,
     }
     return render(request,'pages/home.html',data)
 
