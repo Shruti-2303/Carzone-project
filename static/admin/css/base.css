@@ -1019,6 +1019,10 @@ table#change-history tbody th {
 .delete-confirmation form input[type="submit"]:hover {
     background: var(--delete-button-hover-bg);
 }
+.test
+{
+    color:red;
+}
 
 .delete-confirmation form .cancel-link {
     display: inline-block;
